@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nanodegrees.tejomai.appportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/layout_main_margin_left"
+        android:layout_marginRight="@dimen/layout_main_margin_right"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/header_margin_bottom"
+            android:layout_marginTop="@dimen/header_margin_top"
+            android:text="@string/main_page_heading"
+            android:textColor="@color/black"
+            android:textSize="@dimen/header_font"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_app1"
+            style="@style/buttonStyle"
+            android:background="@color/orange"
+            android:text="@string/app1" />
+
+        <Button
+            android:id="@+id/btn_app2"
+            style="@style/buttonStyle"
+            android:background="@color/violet"
+            android:text="@string/app2" />
+
+        <Button
+            android:id="@+id/btn_app3"
+            style="@style/buttonStyle"
+            android:background="@color/green"
+            android:text="@string/app3" />
+
+        <Button
+            android:id="@+id/btn_app4"
+            style="@style/buttonStyle"
+            android:background="@color/red"
+            android:text="@string/app4" />
+
+        <Button
+            android:id="@+id/btn_app5"
+            style="@style/buttonStyle"
+            android:background="@color/yellow"
+            android:text="@string/app5" />
+
+        <Button
+            android:id="@+id/btn_app6"
+            style="@style/buttonStyle"
+            android:background="@color/blue"
+            android:text="@string/app6" />
+
+    </LinearLayout>
+
+</LinearLayout>
